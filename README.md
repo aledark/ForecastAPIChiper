@@ -2,7 +2,7 @@
 Python Flask application for time series forecasting on Google Cloud using App Engine, Cloud SQL and Cloud Storage.
 
 ### Create A Cloud SQL Instance
-After signing up for Google Cloud, go to Cloud SQL and create a MySQL [instance] (https://cloud.google.com/sql/docs/mysql/create-instance#console). 
+After signing up for Google Cloud, go to Cloud SQL and create a MySQL [instance](https://cloud.google.com/sql/docs/mysql/create-instance#console). 
 Then, follow the steps below:
 * [Create a database](https://cloud.google.com/sql/docs/mysql/create-manage-databases): tickitdb
 * [Create a new user](https://cloud.google.com/sql/docs/mysql/create-manage-users)
@@ -27,7 +27,7 @@ To populate the tables, you can easily do this by uploading the data files to a 
 ### Upload to App Engine Flex
 First, clone this codebase:
 ```
-git clone 
+git clone https://github.com/aledark/ForecastAPIChiper.git
 ```
 Before we dive into the deployment of our API on App Engine, it is important to know about the repository structure:
 * requirements.txt : contains a list of packages required to run the application. App Engine checks this file and installs the packages from the list.
