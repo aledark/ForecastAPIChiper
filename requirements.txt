@@ -1,0 +1,8 @@
+gunicorn==20.1.0
+Flask
+pymysql
+numpy
+pandas
+pystan==2.19.1.1
+prophet
+google-cloud-storage
